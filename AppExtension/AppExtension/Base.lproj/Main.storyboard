@@ -19,14 +19,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="感时花溅泪,恨别鸟惊心." borderStyle="roundedRect" placeholder="输入点东西吧" textAlignment="natural" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="mBD-d0-Rkl">
-                                <rect key="frame" x="65" y="324" width="284" height="30"/>
+                                <rect key="frame" x="65" y="201" width="284" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDp-N5-lPA">
-                                <rect key="frame" x="152" y="391" width="136" height="74"/>
+                                <rect key="frame" x="139" y="276" width="136" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.41176470590000003" green="0.99215686270000003" blue="1" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="到扩展里去">

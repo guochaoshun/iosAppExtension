@@ -26,7 +26,8 @@
     NSUserDefaults * d = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.zksw.AppExtension.group"];
     [d setObject:self.textField.text forKey:@"text"];
     
-    
+    [d setObject:@"用户的token" forKey:@"token"];
+
     [[[NetWork alloc ]init] startLoad];
     
 }
