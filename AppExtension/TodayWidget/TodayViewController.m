@@ -25,9 +25,25 @@
 
     [[[NetWork alloc ]init] startLoad];
 
-    
+    // 必须设置成NCWidgetDisplayModeExpanded才有右上角的 "展开/折叠"
+    // 系统会记住你的上一次设置,第二次进入的时候会自动调整到上一次的 "展开/折叠" 状态
+    self.extensionContext.widgetLargestAvailableDisplayMode = NCWidgetDisplayModeExpanded;
+
 }
 
+
+
+- (void)widgetActiveDisplayModeDidChange:(NCWidgetDisplayMode)activeDisplayMode withMaximumSize:(CGSize)maxSize {
+    
+    NSLog(@"widgetActiveDisplayModeDidChange %ld (%lf,%lf)",(long)activeDisplayMode,maxSize.width,maxSize.height);
+    if (activeDisplayMode == NCWidgetDisplayModeCompact) {
+        // 在NCWidgetDisplayModeCompact下改是不管用的,系统不管你设置的大小,只会使用默认大小
+//        self.preferredContentSize = CGSizeMake(UIScreen.mainScreen.bounds.size.width, 110);
+    } else {
+        self.preferredContentSize = CGSizeMake(UIScreen.mainScreen.bounds.size.width, 350);
+    }
+    
+}
 
 
 - (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler {

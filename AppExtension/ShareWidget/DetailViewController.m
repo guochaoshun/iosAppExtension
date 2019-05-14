@@ -44,10 +44,10 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSArray * array = @[@"好友1",@"好友2",@"好友3",];
 
-// post按钮是否可用
-- (BOOL)isContentValid {
-    return YES;
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"postMessage" object:nil userInfo:@{@"name":array[indexPath.row]}];
 }
 
 
