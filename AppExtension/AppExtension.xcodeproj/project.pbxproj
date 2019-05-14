@@ -21,11 +21,11 @@
 		186F090222891738007B28BD /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F090122891738007B28BD /* ShareViewController.m */; };
 		186F090522891738007B28BD /* MainInterface2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186F090322891738007B28BD /* MainInterface2.storyboard */; };
 		186F090922891738007B28BD /* ShareWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 186F08FE22891737007B28BD /* ShareWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		18B68BD222854E3500E342EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B1AE12285136C004DB78B /* ViewController.m */; };
 		18B68C2322856EA200E342EB /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68BCE22854C3800E342EB /* NetWork.m */; };
 		18B68C2422856EA300E342EB /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B68BCE22854C3800E342EB /* NetWork.m */; };
 		18BD0EBE22895EBE006E0000 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD0EBD22895EBE006E0000 /* DetailViewController.m */; };
 		18BD0EBF22895FAB006E0000 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD0EBD22895EBE006E0000 /* DetailViewController.m */; };
+		18BD233F228AA989006E0000 /* newLogo111.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BD233E228AA989006E0000 /* newLogo111.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +117,7 @@
 		18B68C052285529C00E342EB /* NetworkFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BD0EBC22895EBE006E0000 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		18BD0EBD22895EBE006E0000 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		18BD233E228AA989006E0000 /* newLogo111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newLogo111.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +194,7 @@
 				180B1AE12285136C004DB78B /* ViewController.m */,
 				18B68BCD22854C3800E342EB /* NetWork.h */,
 				18B68BCE22854C3800E342EB /* NetWork.m */,
+				18BD233E228AA989006E0000 /* newLogo111.png */,
 				180B1AE32285136C004DB78B /* Main.storyboard */,
 				180B1AE62285136D004DB78B /* Assets.xcassets */,
 				180B1AE82285136D004DB78B /* LaunchScreen.storyboard */,
@@ -410,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180B1AEA2285136D004DB78B /* LaunchScreen.storyboard in Resources */,
+				18BD233F228AA989006E0000 /* newLogo111.png in Resources */,
 				180B1AE72285136D004DB78B /* Assets.xcassets in Resources */,
 				180B1AE52285136C004DB78B /* Main.storyboard in Resources */,
 			);
@@ -472,7 +475,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B68BD222854E3500E342EB /* ViewController.m in Sources */,
 				18B68C2422856EA300E342EB /* NetWork.m in Sources */,
 				180B1B0C228513CB004DB78B /* TodayViewController.m in Sources */,
 			);
@@ -790,7 +792,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HZ95FZM7A9;
 				INFOPLIST_FILE = ShareWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -810,7 +812,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HZ95FZM7A9;
 				INFOPLIST_FILE = ShareWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
